@@ -4,9 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+:root{
+    --azul-oscuro: rgb(34, 34, 141);
+    --color-letra: white;
+}
 .header{
-    background-color: tomato;
+    background-color: var(--azul-oscuro);
+    color: var(--color-letra);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 10px;
+}
+.color-nav{
+    background-color: var(--color-letra);
 }
